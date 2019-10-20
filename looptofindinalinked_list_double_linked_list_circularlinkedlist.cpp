@@ -1,0 +1,11 @@
+	pre=current;
+		if(current->data>x)
+		{
+		    fond++;
+		}
+	while(current!=NULL&&fond==0)
+	{
+	    pre=current;
+	    current=current->next;
+	     if(current!=NULL&&current->data>=x)break;
+	}
